@@ -3,3 +3,8 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+/* Keep section headings clear of the fixed nav when jumping to a tab */
+html {
+  scroll-padding-top: 4rem;
+}
